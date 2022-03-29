@@ -9,3 +9,4 @@ const generateMessages = (names) => {
 const names = ['Anna', 'Laura', 'Josh', 'Min', 'Karla'];
 
 console.log(generateMessages(names));
+
