@@ -27,3 +27,33 @@ console.log(searchCandies('s', 10));
 console.log(searchCandies('ma', 2));
 
 module.exports = searchCandies;
+
+
+
+
+// SECOND EXERCISE:
+//
+// First solution:
+//
+// const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const isEvenNumber = (number) => {
+//   return number
+//   .filter(n => n % 2 === 0);
+// }
+
+
+
+// Second solution:
+//
+//const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const isEvenNumber = (number) => {
+//   return number % 2 === 0;
+// }
+
+// const evenNumbers = (numbers) => {
+//   return numbers.filter(n => isEvenNumber(n))
+// };
+
+// console.log(evenNumbers(numbers));
