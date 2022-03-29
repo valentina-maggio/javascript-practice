@@ -3,14 +3,6 @@ const User = require('./user');
 
 describe('UserBase', () => {
 
-  // beforeEach(() => {
-  //   const users = [
-  //     new User('Uma'),
-  //     new User('Josh'),
-  //     new User('Ollie')
-  //   ];
-  // });
-
   it('counts the users', () => {
     const users = [
       new User('Uma'),
