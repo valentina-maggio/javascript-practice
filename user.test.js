@@ -8,5 +8,5 @@ describe('User', () => {
   it('introduces the user by name', () => {
     const sut = new User('Valentina');
     expect(sut.getIntroduction()).toBe('Hi, my name is Valentina')
-  })
+  });
 });
